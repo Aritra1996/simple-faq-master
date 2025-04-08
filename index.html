@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap" rel="stylesheet">
     <link
       rel="icon"
       href="resources/favicon.ico"
@@ -38,37 +41,47 @@
 
       header {
         text-align: center;
-        padding: 20px;
-        background-color: #f8fafc;
+        padding: 50px;
+      }
+      header h1 {
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 2.25rem;
+        color: #030616;
       }
       header p {
         color: rgb(33, 35, 39);
         font-size: 16px;
       }
       main {
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        text-align:left;
+        width:600px;
+        margin: auto;
       }
       .qusAns {
-        margin: 20px 0;
+        margin: auto;
         padding: 20px;
-        border-radius: 8px;
-        background-color: #f9fafb;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       }
       .questions {
         margin-bottom: 10px;
       }
       .questions h2 {
-        font-size: 20px;
-        color: rgb(55, 65, 81);
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: #030616;
       }
       .answers {
-        font-size: 16px;
-        color: rgb(75, 85, 99);
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: #030616;
       }
       .answer_body {
         margin: 10px 0;
@@ -84,7 +97,6 @@
     </header>
     
     <main>
-
       <section class="qusAns">
         <section class="questions">
           <h2>How can I track my order?</h2>
@@ -106,6 +118,7 @@
         </section>
       </section>
       
+      <hr />
   
       <section class="qusAns">
           <section class="questions">
